@@ -16,3 +16,33 @@
     width: 1200px;
   }
 }
+
+// сброс заголовков
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}

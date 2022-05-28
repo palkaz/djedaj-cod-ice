@@ -1,4 +1,19 @@
+@import './base/utils/utils';
+@import './base/var';
+@import './base/base';
+@import './visually';
+
 @import './common';
-@import './about';
+
+@import './header';
+@import './hero';
 @import './products';
+@import './about';
+@import './advantages';
 @import './gallery';
+@import './customer-reviews';
+@import './contacts';
+@import './footer';
+
+@import './mobile-menu';
+
