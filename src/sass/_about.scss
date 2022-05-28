@@ -38,7 +38,7 @@
 }
 
 // .about__content {
-//   @media screen (min-width: 768px) {
+//   @media screen and (min-width: 768px) {
 //     display: flex;
 //   }
 // }
@@ -47,6 +47,27 @@
   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: top center;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+    }
+  }
+
+  // @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  //   display: none;
+  // }
 }
 
 .about__production-text {
